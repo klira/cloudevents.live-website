@@ -1,0 +1,91 @@
+<!doctype html>
+<head>
+  <title>CloudEvents.live</title>
+  <link rel="stylesheet" href="https://misc-webassets.5z.fyi/CentraNo2/font.css" />
+  <style>
+   body {
+       font-family: "Centra No2", Arial, sans-serif;
+   }
+   #main {
+       margin: 0 auto;
+       padding-top: 0.25rem;
+       max-width: 760px;
+       display: grid;
+   }
+
+   header h1 {
+       text-align: center;
+       margin: 0.25em 0;
+       font-weight: 300;
+       font-size: 2.85em;
+   }
+
+   footer {
+       display: flex;
+   }
+
+
+   small {
+       font-size: 1em;
+   }
+
+   .cta {
+       color: #6666ff;
+       border: 3px solid #6666ff;
+       padding: 0.75em 1.5em;
+       font-size: 110%;
+       border-radius: 3px;
+       text-decoration: none;
+       display: inline-block;
+       margin: 0 auto;
+   }
+
+   p {
+       font-size: 110%;
+   }
+
+   .cta:hover {
+       background: #6666ff;
+       color: #fff;
+   }
+
+   .cta-wrap {
+       margin-top: 0.75em;
+       margin-bottom: 1em;
+       display: flex;
+   }
+
+   a {
+       color: #333;
+   }
+
+  </style>
+</head>
+
+<body>
+  <div id="main">
+    <header>
+      <h1>CloudEvents: Live</h1>
+    </header>
+    <article>
+      <p>
+        A real-time debugger and event-sink for CloudEvents. It gives
+        you an endpoint ready to receive webhooks from your
+        application when you're debugging. When you get a new event it
+        shows up instantly in your debugger. Want to host it yourself?
+        - the code including Helm-charts is
+        on <a href="https://github.com/klira/cloudevents-bin">Github</a>.
+      </p>
+
+
+      <div class="cta-wrap">
+        <a class="cta" href="https://app.cloudevents.live" rel="prerender">Try it</a>
+      </div>
+    </article>
+    <footer>
+      <small>
+        MIT Licence &mdash; Copyright &copy; 2018 Klira.io  &mdash; Made with &#x2764;&#xFE0F; in Stockholm, Sweden.
+      </small>
+    </footer>
+  </div>
+</body>

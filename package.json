@@ -1,0 +1,13 @@
+{
+  "name": "cloudevents.live",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "William Rudenmalm <me@whn.se>",
+  "license": "MIT",
+  "dependencies": {
+    "parcel": "^1.9.3"
+  },
+  "scripts": {
+    "build": "parcel build index.html"
+  }
+}
